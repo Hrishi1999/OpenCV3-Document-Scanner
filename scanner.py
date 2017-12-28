@@ -82,7 +82,7 @@ cv2.imshow("Thresh mean.jpg", th2)
 cv2.imshow("Thresh gauss.jpg", th3)
 cv2.imshow("Otsu's.jpg", th4)"""
 cv2.imshow("dst.jpg", dst)
-cv2.imwrite('01.png',d)
+cv2.imwrite('01.png',dst)
 
 
 # other thresholding methods
